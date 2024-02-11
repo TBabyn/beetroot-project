@@ -5,7 +5,7 @@
 
 }
 
-element style {
+element. style {
     display: flex;
     align-items: baseline;
 }
@@ -72,6 +72,7 @@ body {
         align-items: center;
         border-top: 2px solid transparent;
         border-bottom: 2px solid transparent;
+
     }
 
     .list-label:hover {
@@ -89,6 +90,7 @@ body {
     .block:hover {
         background-color: #625E77;
         border: 2px solid whitesmoke;
+
     }
 
     .block:last-child {
@@ -101,18 +103,21 @@ body {
         background-color: #ac736c;
     }
 
-    .checkbox:checked + span {
-        color: lightgray;
-        text-decoration: line-through;
-    }
-
-    .checkbox {
+          .checkbox {
         width: 18px;
         height: 18px;
         top: 114px;
         left: 141px;
+
     }
 
+    .myClass:checked + span+small{
+        text-decoration: line-through;
+    }
+
+    .myClass:checked + span {
+        text-decoration: line-through;
+    }
     .block:nth-child(2n) {
         background-color: #7A7593;
     }
