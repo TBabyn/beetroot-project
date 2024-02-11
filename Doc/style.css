@@ -1,0 +1,71 @@
+.rectangle-red {
+    height: 100px;
+    width: 100px;
+    background-color: #FF0000;
+    top: 28px;
+    left: 66px;
+    margin-bottom: 20px;
+}
+
+.rectangle-green {
+    height: 100px;
+    width: 100px;
+    background-color: #00FF00;
+    top: 28px;
+    left: 66px;
+    margin-bottom: 20px;
+}
+
+.rectangle-blue {
+    background-color: #0000FF;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+
+.circle {
+    background-color: #C3C3C3;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.blocks {
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.text-first {
+    width: 500px;
+    height: 173px;
+    top: 546px;
+    left: 83px;
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.text-second {
+    Width: 500px;
+    Height: 173px;
+    Top: 1080px;
+    Left: 83px;
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.info-text-second span {
+    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    Width: 500px;
+    Height: 173px;
+    Top: 1080px;
+    Left: 83px;
+}
+.app {
+    margin: 10px;
+}
